@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+ margin: 0;
+    padding: 0;
+   box-sizing: border-box; 
+}
+
+
+
+body{
+
+    background-color:#f4f0ea;
+    color: #848d03;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header
+{
+padding: 2rem;
+background-color: rgb(202, 8, 40);
+text-align: center;
+}
+
+main{
+
+padding: 2rem;
+}
+
+h1{
+    color: crimson; 
+}
+
+h2{
+    color: rgb(202, 8, 40) ;
+    font-size: 1.2rem;}
+
+    input[type="text"]{
+        background-color: transparent;
+        border-radius: 5px;
+        outline: none;
+        width: 99%;
+        padding: 0.6rem;
+        border :2px solid #848d03;
+        
+    
+    }
+    input[type="date"]{
+        cursor: pointer;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    input::placeholder{
+        color: #7f8530;
+    }
+    
+
+    img{
+        width: 20rem ;
+        border-radius: 5px ;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th{
+        background-color: #7f8530;
+        color: black;
+        padding: 1rem;
+    }
+    td{
+        color:black;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    details{
+        background-color: black;
+        border-radius: 5px;
+        padding: 1rem;
+
+    }
+    summary{
+        color: crimson;
+        margin: 0.5rem;
+        cursor: pointer;
+    }
+    ol{
+        margin-left: 1.5rem;
+    }
+
+    ol li{
+        padding: 0.2rem;
+    }
+    fieldset{
+
+        border: 2px solid;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+    
+    legend{
+         color: black;
+         padding: 0 0.5;
+    }
+
+    textarea{
+        outline: none;
+        border-radius: 5px;
+        border: 2px solid #848d03;
+        background-color: transparent;
+    }
+
+     button{
+        background-color: #7f8530;
+        border: 2px ;
+        padding: 0.8rem ;
+        color:black;
+        border-radius: 5px ;
+        cursor: pointer;
+     }
+
+     footer{
+        background-color: black;
+        padding: 2rem;
+        text-align: center;
+     }
